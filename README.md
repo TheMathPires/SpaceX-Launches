@@ -12,7 +12,7 @@
       "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars.” <br>- Elon Musk
     <br />
     <br />
-    <a href="https://themathpires.github.io/SpaceX-Launches/" target="_blank">View Demo</a>
+    <a href="https://themathpires.github.io/SpaceX-Launches/index.html" target="_blank">View Demo</a>
   </p>
 </p>
 
