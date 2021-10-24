@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/SpaceX-Launches/static/css/main.bf009e2f.chunk.css",
+    "main.js": "/SpaceX-Launches/static/js/main.05ff143b.chunk.js",
+    "main.js.map": "/SpaceX-Launches/static/js/main.05ff143b.chunk.js.map",
+    "runtime-main.js": "/SpaceX-Launches/static/js/runtime-main.a2888b7f.js",
+    "runtime-main.js.map": "/SpaceX-Launches/static/js/runtime-main.a2888b7f.js.map",
+    "static/css/2.49b28889.chunk.css": "/SpaceX-Launches/static/css/2.49b28889.chunk.css",
+    "static/js/2.5e40f3e4.chunk.js": "/SpaceX-Launches/static/js/2.5e40f3e4.chunk.js",
+    "static/js/2.5e40f3e4.chunk.js.map": "/SpaceX-Launches/static/js/2.5e40f3e4.chunk.js.map",
+    "index.html": "/SpaceX-Launches/index.html",
+    "static/css/2.49b28889.chunk.css.map": "/SpaceX-Launches/static/css/2.49b28889.chunk.css.map",
+    "static/css/main.bf009e2f.chunk.css.map": "/SpaceX-Launches/static/css/main.bf009e2f.chunk.css.map",
+    "static/js/2.5e40f3e4.chunk.js.LICENSE.txt": "/SpaceX-Launches/static/js/2.5e40f3e4.chunk.js.LICENSE.txt",
+    "static/media/SpaceX-Logo.e548eb03.png": "/SpaceX-Launches/static/media/SpaceX-Logo.e548eb03.png",
+    "static/media/index.css": "/SpaceX-Launches/static/media/infographic.3941c62c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a2888b7f.js",
+    "static/css/2.49b28889.chunk.css",
+    "static/js/2.5e40f3e4.chunk.js",
+    "static/css/main.bf009e2f.chunk.css",
+    "static/js/main.05ff143b.chunk.js"
+  ]
+}
