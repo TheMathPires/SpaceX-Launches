@@ -94,48 +94,50 @@ export const Launches = () => {
         <TabButton onClick={handlePastLaunches}>Past</TabButton>
         <TabButton onClick={handleFavoriteLaunches}>Favorites</TabButton>
 
-        <Filters>
-          <div>
-            Initial date
-            <DatePicker
-              onChange={(value) =>
-                setFilters({ ...filters, initialDate: value })
-              }
-              value={filters.initialDate}
-            />
-          </div>
-          <div>
-            Final date
-            <DatePicker
-              onChange={(value) => setFilters({ ...filters, finalDate: value })}
-              value={filters.finalDate}
-            />
-          </div>
-          <input
-            type="radio"
-            value=""
-            checked={filters.status === ""}
-            onChange={handleChangeLaunchType}
-            name="all"
-          />{" "}
-          all
-          <input
-            type="radio"
-            value="true"
-            checked={filters.status === "true"}
-            onChange={handleChangeLaunchType}
-            name="succeeded"
-          />{" "}
-          succeeded
-          <input
-            type="radio"
-            value="false"
-            checked={filters.status === "false"}
-            onChange={handleChangeLaunchType}
-            name="unsucceeded"
-          />{" "}
-          unsucceeded
-        </Filters>
+        {!showFavorites && ( 
+          <Filters>
+            <div>
+              Initial date
+              <DatePicker
+                onChange={(value) =>
+                  setFilters({ ...filters, initialDate: value })
+                }
+                value={filters.initialDate}
+              />
+            </div>
+            <div>
+              Final date
+              <DatePicker
+                onChange={(value) => setFilters({ ...filters, finalDate: value })}
+                value={filters.finalDate}
+              />
+            </div>
+            <input
+              type="radio"
+              value=""
+              checked={filters.status === ""}
+              onChange={handleChangeLaunchType}
+              name="all"
+            />{" "}
+            all
+            <input
+              type="radio"
+              value="true"
+              checked={filters.status === "true"}
+              onChange={handleChangeLaunchType}
+              name="succeeded"
+            />{" "}
+            succeeded
+            <input
+              type="radio"
+              value="false"
+              checked={filters.status === "false"}
+              onChange={handleChangeLaunchType}
+              name="unsucceeded"
+            />{" "}
+            unsucceeded
+          </Filters>
+        )}
       </Controls>
 
       <h2>{title}</h2>

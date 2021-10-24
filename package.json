@@ -2,7 +2,7 @@
   "name": "spacex-launches",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://themathpires.github.io/SpaceX-Launches/",
+  "homepage": "http://themathpires.github.io/SpaceX-Launches/",
   "dependencies": {
     "@emotion/react": "^11.5.0",
     "@emotion/styled": "^11.3.0",
