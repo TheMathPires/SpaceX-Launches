@@ -29,10 +29,10 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-
+Application that queries the SpaceX API, returning all past and upcoming launches. It is possible to do a personalized search and consult information such as mission status, used rocket, mission year, his badge and also the feature to add to favorites.
 
 <p align="center">
-  <img align="center" src="public/images/example.gif" />
+  <img align="center" src="./src/assets/spaceX-gif.gif" />
 </p>
 
 ### Built With
