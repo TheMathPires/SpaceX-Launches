@@ -25,9 +25,6 @@ export const Tr = styled.tr`
   &:nth-of-type(even) {
     background-color: #dddddd3b;
   }
-  &[fav="true"] {
-    border: 3px solid #fff;
-  }
 `;
 
 export const TabButton = styled.button`

@@ -29,6 +29,7 @@ export const Launches = () => {
   const [showFavorites, setShowFavorites] = useState(false);
   const [favorites, setFavorites] = useStateWithLocalStorage("favorites");
   const [filters, setFilters] = useState(defaultFilters);
+  const [title, setTitle] = useState('Upcoming');
 
   const {
     isLoading,
@@ -54,15 +55,18 @@ export const Launches = () => {
   const handleUpcomingLaunches = () => {
     setShowFavorites(false);
     setFilters({ ...filters, upcomingLaunches: true });
+    setTitle('Upcoming');
   };
 
   const handlePastLaunches = () => {
     setShowFavorites(false);
     setFilters({ ...filters, upcomingLaunches: false });
+    setTitle('Past');
   };
 
   const handleFavoriteLaunches = () => {
     setShowFavorites(true);
+    setTitle('Favorites');
   };
 
   const handleChangeLaunchType = (x) => {
@@ -134,7 +138,7 @@ export const Launches = () => {
         </Filters>
       </Controls>
 
-      <h2>{filters.upcomingLaunches ? "Upcoming" : "Past"}</h2>
+      <h2>{title}</h2>
 
       {isLoading ? (
         <p>Show Loading...</p>
